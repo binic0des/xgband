@@ -1,0 +1,63 @@
+
+/*Agregamos estilos al body */
+body{
+    background: rgb(108,117,125);
+    background: linear-gradient(0deg, rgba(108,117,125,1) 0%, rgba(247,246,255,1) 100%);
+}
+
+nav a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 5px 0px 5px;
+}
+
+h1, h2{
+    font-family: "Matemasie", sans-serif;
+}
+
+h2{
+    background-color: chartreuse;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 7px;
+    border: 2px groove black;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+/* agregar width y height */
+img { 
+    width: 100%;
+    height: auto;
+}
+.integrantes {
+    width: auto;
+    height: 500px;
+    border-radius: 25px;
+}
+
+/* cambiar tamaño a mi img por class */
+.hinata-gif {
+    width: auto;
+    height: 350px;
+}
+
+
+footer{
+    background-color: #666E76;
+}
+
+.texto-footer{
+    border-radius: 50%;
+    border: none;
+}
